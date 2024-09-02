@@ -288,9 +288,7 @@ body{
     }
 
     .s-cards img{
-        height: 450px;
-        width: 600px;
-        margin:auto;
+        margin: auto;
     }
 
     .grid{
@@ -324,7 +322,7 @@ body{
 }
 
 /* Mobile */
-@media(max-width: 500px){
+@media(max-width: 600px){
     .topsection-cont{
         height: 1000px;
         background-image: url('bg-hero-mobile.svg');
@@ -374,13 +372,13 @@ body{
 
     .s-cards img{
         padding: 0;
-        margin: 60px 50px 0 45px;
+        margin-top: 5%;
         height: 300px;
         width: 300px;
     }
 
     .s-cards-text{
-        margin: 150px 0 0 45px;
+        margin: auto;
         width: 300px;
     }
 
@@ -405,7 +403,7 @@ body{
     }
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 450px){
     .topsection{
         padding: 30px 10px;
     }
